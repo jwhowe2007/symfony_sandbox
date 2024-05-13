@@ -3,3 +3,7 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+    
+alt_controller:
+    path: /alt
+    controller: App\Controller\SubController\AltController
